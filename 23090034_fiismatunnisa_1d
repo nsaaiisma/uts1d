@@ -1,0 +1,14 @@
+UTS1D
+import java.util.Scanner;
+public class SegitigaKelipatanGanjil {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int panjangSisi = scanner.nextInt();
+        if (panjangSisi % 2 == 1 && panjangSisi % 3 == 0 && panjangSisi % 7 == 0) {
+            System.out.println("Panjang sisi sesuai kriteria.");
+        } else {
+            System.out.println("Panjang sisi tidak memenuhi kriteria.");
+        }
+    }
+}
+
